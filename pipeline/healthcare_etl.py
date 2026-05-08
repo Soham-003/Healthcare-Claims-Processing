@@ -11,7 +11,6 @@ def clean_claims_data(df):
     return cleaned_df
 
 
-
 if __name__ == "__main__":
     sample_data = {
         "patient_id": [101, None, 103],
@@ -27,3 +26,4 @@ if __name__ == "__main__":
 
     print("\nCleaned Data:\n")
     print(cleaned_df)
+    

@@ -1,0 +1,6 @@
+[flake8]
+exclude = 
+    hcpenv,
+    __pycache__,
+    .git
+max-line-length = 88
